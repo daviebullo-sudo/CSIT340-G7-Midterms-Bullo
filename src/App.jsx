@@ -47,7 +47,6 @@ function App() {
           <div className="mt-6 flex gap-6">
             <StatCard value={followers} label="Followers" />
             <StatCard value={rate} label="Rate" />  
-
           </div>
         </div>
 
