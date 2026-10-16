@@ -1,5 +1,6 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
+import Profile from "./components/Profile";
 
 function App() {
   const [followers, setFollowers] = useState(0);
@@ -39,10 +40,7 @@ function App() {
       <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
         <div>
           <header>
-            <h2 className="text-6xl font-bold">Christian Dave M. Bullo</h2>
-            <p className="mt-1 text-2xl text-[#FA8112]">
-              @daviebullo-sudo
-            </p>
+            <Profile> </Profile>
             <p className="mt-3 text-2xl">Front-end developer from Cebu City.</p>
           </header>
           <div className="mt-6 flex gap-6">
